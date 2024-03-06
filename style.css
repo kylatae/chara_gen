@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f5ff; /* Light, cheery background */
+  color: #333; 
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #228822; /* Adventure-y green */
+}
+
+button {
+  background-color: #228822;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#characterOutput {
+  margin-top: 20px;
+}
+
+
+table {
+  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  text-transform: capitalize;
+  padding: 10px;
+  background-color: #228822; 
+  color: white; 
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
